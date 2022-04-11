@@ -1,0 +1,160 @@
+html{
+    background-color: #525252;
+    height: auto;
+}
+
+.poster{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #181638;
+    width: 700px;
+    height: 900px;
+    margin: 5% auto;
+}
+
+.content{
+    height: 800px;
+}
+
+.title{
+    padding-top: 50px;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+video{
+    height: 300px;
+    border-radius: 15%;
+}
+
+.reasoning{
+    position: relative;
+    bottom: 10px;
+    text-align: left;
+    height: auto;
+    width: 590px;
+    margin: 0 55px;
+}
+
+.reasoningcontent{
+    position: relative;
+    bottom: 20px;
+    height: 230px;
+}
+
+.why{
+    font-size: 30px;
+    text-align: center;
+}
+
+.reason_img{
+    height: auto;
+}
+
+.reason_img1{
+    height: 64px;
+    width: 64px;
+    float: left;
+}
+
+.reason_img2{
+    height: 42px;
+    width: 42px;
+    margin: 5px 0px 0px 10px;
+    float: left;
+}
+
+.reason_img3{
+    height: 41px;
+    float: left;
+    padding-top: 7px;
+    margin-left: -14px;
+}
+
+.reason_img4{
+    height: 62px;
+    width: 62px;
+    padding-top: 4px;
+    float: left;
+}
+
+.reasons{
+    font-style: italic;
+    margin-right: 20px;
+    float: right;
+    height: auto;
+    width: 480px;
+}
+
+.reasons_title{
+    font-size: 20px;
+    margin-top: 5px;
+    height: 20px;
+    width: auto;
+}
+
+.reasons_sub{
+    text-align: justify;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+}
+
+.reviewlink{
+    color: white;
+    text-decoration: none;
+}
+
+.reviewlink:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.cityavailable{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.contactus{
+    font-size: 15px;
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+ .whatsapp{
+    right: 5px;
+    height: 55px;
+    width: 55px;
+    display: inline-block;
+ }
+
+ .mail{
+     position: relative;
+     height: 48px;
+     width: 48px;
+     bottom: 3px;
+ }
+
+.subscribe{
+    width: 80px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.formbutton{
+    margin-top: 8px;
+    height: 50px;
+    float: right;
+
+}

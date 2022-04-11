@@ -1,0 +1,86 @@
+body{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.formcontent {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #000;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);    
+    height: auto;
+    width: 500px;
+    flex-wrap: wrap;
+    text-align: left;
+    border-radius: 5%;
+    margin: 18% auto;
+}
+
+.form_title_container{
+    width: 100%;
+}
+
+.titleform{
+    background-color: orange;
+    height: auto;
+    font-size: 25px;
+    color: white;
+    width: 89px;
+    padding: 5px 10px;
+    border-radius: 5%;
+    margin: 15px auto 10px auto;
+}
+
+.form_desc{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.closebutton{
+    position: absolute;
+    margin-top: 10px;
+    display: flex;
+    width: 400px;
+    justify-content: right;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.closebutton:hover{
+    color: white;
+}
+
+input{
+    width: 200px;
+    text-align: center;
+}
+
+input[name=nama]{
+    margin-left: 77px;
+}
+
+input[name=email]{
+    margin-left: 77px;
+}
+
+select[class=kota]{
+    margin-left: 84px;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 20px 160px;
+}
+
+button:hover{
+    background-color: rgb(214, 226, 236); 
+}
+
+.box{
+    padding: 5px 0px;
+    border-radius: 5px;
+    width: 420px;   
+}
